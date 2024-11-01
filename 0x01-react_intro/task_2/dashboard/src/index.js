@@ -4,13 +4,16 @@ import ReactDOM from 'react-dom/client';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Notifications from './Notifications';
+import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  <>
   <root-notifications>
-    <Notifications />
-    
+    <Notifications />    
   </root-notifications>
+  <App />  
+  </>
 );
 
 // If you want to start measuring performance in your app, pass a function
